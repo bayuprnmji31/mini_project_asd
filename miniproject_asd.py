@@ -44,7 +44,7 @@ class RiwayatSiswa:
                 current = current.next
             current.next = siswa_baru
             
-    def hapus_siswa(self, nama, kelas):
+    def hapus_siswa(self, nama):
         current = self.head
         previous =None
         while current:
